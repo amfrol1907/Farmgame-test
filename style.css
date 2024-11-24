@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #FDFCEF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+    line-height: 1.37em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+section {
+    padding-top: 120px;
+}
+
+.btn {
+    border-radius: 100px;
+    background: #FF6861;
+    color: white;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    width: 227px;
+    /* transition: all 0.5s ease; */
+}
+
+/* .btn:hover {
+    background: #535353;
+} */
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.offer {
+    width: 465px;
+}
+
+.introtext {
+    margin: 30px 0;
+    width: 400px;
+}
+
+.digit-img {
+    margin-right: 34px;
+    width: 73px;
+    height: 73px;
+    /* transition: all 0.3s ease; */
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.digit-item {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* .digit-item:hover {
+    transform: scale(1.1);
+} */
+
+.practice-wrap {
+    border-radius: 60px;
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 125px 75px 122px;
+}
+
+.practice-block {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.practice-title {
+    text-align: left;
+}
+
+.practice-block p {
+    width: 371px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
